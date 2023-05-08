@@ -185,10 +185,10 @@ importers:
         version: 5.0.1
       tauri-plugin-log-api:
         specifier: github:tauri-apps/tauri-plugin-log
-        version: github.com/tauri-apps/tauri-plugin-log/be811332676ff73e1e891f31ce3de8d447fdf07e
+        version: github.com/tauri-apps/tauri-plugin-log/76b5069f7b1e88de2c5f52706159fd9525a3ba50
       tauri-plugin-store-api:
         specifier: github:tauri-apps/tauri-plugin-store
-        version: github.com/tauri-apps/tauri-plugin-store/f4ef29684e4a32eddf51befaae98a5e498df8574
+        version: github.com/tauri-apps/tauri-plugin-store/0558a1f6c869ae0afdb0181dfa1ea31be8cf4893
       theme-vitesse:
         specifier: ^0.6.4
         version: 0.6.4
@@ -254,8 +254,8 @@ importers:
         specifier: ^2020.9.6
         version: 2020.9.6
       '@unlazy/nuxt':
-        specifier: ^0.8.8
-        version: 0.8.8(fast-blurhash@1.1.2)(rollup@2.79.1)(thumbhash@0.1.1)
+        specifier: ^0.8.9
+        version: 0.8.9(fast-blurhash@1.1.2)(rollup@2.79.1)(thumbhash@0.1.1)
       bumpp:
         specifier: ^9.1.0
         version: 9.1.0
@@ -303,8 +303,8 @@ importers:
         version: 0.0.5
     devDependencies:
       '@nuxt-themes/docus':
-        specifier: ^1.11.0
-        version: 1.11.0(nuxt@3.4.3)(postcss@8.4.23)(rollup@3.21.3)(vue@3.2.47)
+        specifier: ^1.11.1
+        version: 1.11.1(nuxt@3.4.3)(postcss@8.4.23)(rollup@3.21.3)(vue@3.2.47)
       nuxt:
         specifier: ^3.4.3
         version: 3.4.3(@types/node@18.16.3)(eslint@8.39.0)(rollup@3.21.3)(typescript@5.0.4)(vue-tsc@1.2.0)
@@ -2317,15 +2317,15 @@ packages:
       - supports-color
     dev: false
 
-  /@nuxt-themes/docus@1.11.0(nuxt@3.4.3)(postcss@8.4.23)(rollup@3.21.3)(vue@3.2.47):
-    resolution: {integrity: sha512-9VeQrOocIQBN8p+/syVvMpHxVqUG8BO1KKWxfzlHI0hRfMRJ12rSUIWtSt9R3MdMNoeDdiNoEZ6F1dtPGfS/aQ==}
+  /@nuxt-themes/docus@1.11.1(nuxt@3.4.3)(postcss@8.4.23)(rollup@3.21.3)(vue@3.2.47):
+    resolution: {integrity: sha512-i/7TBkNmJm9TMt2q+PLIFRdKnOFIspRKFAKWznrh0+rhm32u55OhtYE1+Vs/83bPN7pY9ErxnQEdcTGSXo+aGw==}
     dependencies:
       '@nuxt-themes/elements': 0.9.4(postcss@8.4.23)(rollup@3.21.3)(vue@3.2.47)
       '@nuxt-themes/tokens': 1.9.1(postcss@8.4.23)(rollup@3.21.3)(vue@3.2.47)
       '@nuxt-themes/typography': 0.11.0(postcss@8.4.23)(rollup@3.21.3)(vue@3.2.47)
       '@nuxt/content': 2.6.0(rollup@3.21.3)
-      '@nuxthq/studio': 0.10.1(rollup@3.21.3)
-      '@vueuse/nuxt': 10.1.0(nuxt@3.4.3)(rollup@3.21.3)(vue@3.2.47)
+      '@nuxthq/studio': 0.11.0(rollup@3.21.3)
+      '@vueuse/nuxt': 10.1.2(nuxt@3.4.3)(rollup@3.21.3)(vue@3.2.47)
     transitivePeerDependencies:
       - '@azure/app-configuration'
       - '@azure/cosmos'
@@ -2843,8 +2843,8 @@ packages:
       - vue-tsc
     dev: true
 
-  /@nuxthq/studio@0.10.1(rollup@3.21.3):
-    resolution: {integrity: sha512-EWzk3HkE6QuiqVxqZ7jsAc/8GxSDKRO+jnTBv1wlOAvPKJNPsHrlYGP8EyR6S1NaB3pQTJ9iVBhmskAtrKIsYQ==}
+  /@nuxthq/studio@0.11.0(rollup@3.21.3):
+    resolution: {integrity: sha512-9cIJSguUWvtiFs6/dlZB6f/xQ588HGqWXzRU9logl5THig6X5lYwV4hfleaY4tYoitve3j5OUCXzfFhUQqCxGA==}
     dependencies:
       '@nuxt/kit': 3.4.3(rollup@3.21.3)
       defu: 6.1.2
@@ -3695,6 +3695,10 @@ packages:
   /@types/web-bluetooth@0.0.16:
     resolution: {integrity: sha512-oh8q2Zc32S6gd/j50GowEjKLoOVOwHP/bWVjKJInBwQqdOYMdPrf1oVlelTlyfFK3CKxL1uahMDAr+vy8T7yMQ==}
 
+  /@types/web-bluetooth@0.0.17:
+    resolution: {integrity: sha512-4p9vcSmxAayx72yn70joFoL44c9MO/0+iVEBIQXe3v2h2SiAsEIo/G5v6ObFWvNKRFjbrVadNf9LqEEZeQPzdA==}
+    dev: true
+
   /@types/wicg-file-system-access@2020.9.6:
     resolution: {integrity: sha512-6hogE75Hl2Ov/jgp8ZhDaGmIF/q3J07GtXf8nCJCwKTHq7971po5+DId7grft09zG7plBwpF6ZU0yx9Du4/e1A==}
     dev: true
@@ -3863,19 +3867,19 @@ packages:
       unhead: 1.1.26
       vue: 3.2.45
 
-  /@unlazy/core@0.8.8:
-    resolution: {integrity: sha512-V1QBPCF9IN8PK4d9uxl3fcQEndmqu47kOH7Ai7/Lj98Nuobnjv8K9xJfXfwqGkPcYfVBcFKvnwA3Z41XWLcd0Q==}
+  /@unlazy/core@0.8.9:
+    resolution: {integrity: sha512-DQ4WB/cuEWTknU/59uRwpSipvMAJzBDmRyaHDUc1RcXi0Z7/Vcl0EE7BpROxEynqd1EI+2oMWQaDLyXffUdUiA==}
     dependencies:
       fast-blurhash: 1.1.2
       thumbhash: 0.1.1
     dev: true
 
-  /@unlazy/nuxt@0.8.8(fast-blurhash@1.1.2)(rollup@2.79.1)(thumbhash@0.1.1):
-    resolution: {integrity: sha512-Osb6RHNGYLFHJ3Ib0XKpCwFLpodWUJWd5QA2kk4iR+vfU+3fIxXYFbcX3zG7sFLUIBN9n+NuNY2CuIAJV4BJqQ==}
+  /@unlazy/nuxt@0.8.9(fast-blurhash@1.1.2)(rollup@2.79.1)(thumbhash@0.1.1):
+    resolution: {integrity: sha512-STnVhXKpJNZRHDH/eamZVF9nfR4NLOmBQEr+yYHmlTMM9v81hSu+iwiekKDBJJi8hwNZuTiEIudIz4OP4hqe3w==}
     dependencies:
       '@nuxt/kit': 3.4.3(rollup@2.79.1)
       defu: 6.1.2
-      unlazy: 0.8.8(fast-blurhash@1.1.2)(thumbhash@0.1.1)
+      unlazy: 0.8.9(fast-blurhash@1.1.2)(thumbhash@0.1.1)
     transitivePeerDependencies:
       - fast-blurhash
       - rollup
@@ -4839,12 +4843,12 @@ packages:
       - vue
     dev: false
 
-  /@vueuse/core@10.1.0(vue@3.2.47):
-    resolution: {integrity: sha512-3Znoa5m5RO+z4/C9w6DRaKTR3wCVJvD5rav8HTDGsr+7rOZRHtcgFJ8NcCs0ZvIpmev2kExTa311ns5j2RbzDQ==}
+  /@vueuse/core@10.1.2(vue@3.2.47):
+    resolution: {integrity: sha512-roNn8WuerI56A5uiTyF/TEYX0Y+VKlhZAF94unUfdhbDUI+NfwQMn4FUnUscIRUhv3344qvAghopU4bzLPNFlA==}
     dependencies:
-      '@types/web-bluetooth': 0.0.16
-      '@vueuse/metadata': 10.1.0
-      '@vueuse/shared': 10.1.0(vue@3.2.47)
+      '@types/web-bluetooth': 0.0.17
+      '@vueuse/metadata': 10.1.2
+      '@vueuse/shared': 10.1.2(vue@3.2.47)
       vue-demi: 0.14.0(vue@3.2.47)
     transitivePeerDependencies:
       - '@vue/composition-api'
@@ -4961,6 +4965,11 @@ packages:
 
   /@vueuse/metadata@10.1.0:
     resolution: {integrity: sha512-cM28HjDEw5FIrPE9rgSPFZvQ0ZYnOLAOr8hl1XM6tFl80U3WAR5ROdnAqiYybniwP5gt9MKKAJAqd/ab2aHkqg==}
+    dev: false
+
+  /@vueuse/metadata@10.1.2:
+    resolution: {integrity: sha512-3mc5BqN9aU2SqBeBuWE7ne4OtXHoHKggNgxZR2K+zIW4YLsy6xoZ4/9vErQs6tvoKDX6QAqm3lvsrv0mczAwIQ==}
+    dev: true
 
   /@vueuse/metadata@8.9.4:
     resolution: {integrity: sha512-IwSfzH80bnJMzqhaapqJl9JRIiyQU0zsRGEgnxN6jhq7992cPUJIRfV+JHRIZXjYqbwt07E1gTEp0R0zPJ1aqw==}
@@ -5006,14 +5015,14 @@ packages:
       - vue
     dev: false
 
-  /@vueuse/nuxt@10.1.0(nuxt@3.4.3)(rollup@3.21.3)(vue@3.2.47):
-    resolution: {integrity: sha512-p2QfoKs0hMbOz/hzKn8hzQvfFMLnDceRLjtvHFtMgRp8Z0Dckji7KhFwbbrIMCyjpr57HkNB46g42h9K4Sn0lg==}
+  /@vueuse/nuxt@10.1.2(nuxt@3.4.3)(rollup@3.21.3)(vue@3.2.47):
+    resolution: {integrity: sha512-X9o5WCmNs1+6XztP1Uh9+H7/jGeIjwSRNQdwCWRKCDkxPlbgi9iLnDRYnKDY++JPY3nbB6jTDOVgZDrpaAU5kg==}
     peerDependencies:
       nuxt: ^3.0.0
     dependencies:
       '@nuxt/kit': 3.4.3(rollup@3.21.3)
-      '@vueuse/core': 10.1.0(vue@3.2.47)
-      '@vueuse/metadata': 10.1.0
+      '@vueuse/core': 10.1.2(vue@3.2.47)
+      '@vueuse/metadata': 10.1.2
       local-pkg: 0.4.3
       nuxt: 3.4.3(@types/node@18.16.3)(eslint@8.39.0)(rollup@3.21.3)(typescript@5.0.4)(vue-tsc@1.2.0)
       vue-demi: 0.14.0(vue@3.2.47)
@@ -5033,8 +5042,8 @@ packages:
       - vue
     dev: false
 
-  /@vueuse/shared@10.1.0(vue@3.2.47):
-    resolution: {integrity: sha512-2X52ogu12i9DkKOQ01yeb/BKg9UO87RNnpm5sXkQvyORlbq8ONS5l39MYkjkeVWWjdT0teJru7a2S41dmHmqjQ==}
+  /@vueuse/shared@10.1.2(vue@3.2.47):
+    resolution: {integrity: sha512-1uoUTPBlgyscK9v6ScGeVYDDzlPSFXBlxuK7SfrDGyUTBiznb3mNceqhwvZHjtDRELZEN79V5uWPTF1VDV8svA==}
     dependencies:
       vue-demi: 0.14.0(vue@3.2.47)
     transitivePeerDependencies:
@@ -13020,13 +13029,13 @@ packages:
     resolution: {integrity: sha512-hAZsKq7Yy11Zu1DE0OzWjw7nnLZmJZYTDZZyEFHZdUhV8FkH5MCfoU1XMaxXovpyW5nq5scPqq0ZDP9Zyl04oQ==}
     engines: {node: '>= 10.0.0'}
 
-  /unlazy@0.8.8(fast-blurhash@1.1.2)(thumbhash@0.1.1):
-    resolution: {integrity: sha512-7wro4wypXPr2WurVcuapEYwju9YXkJP9fHT2SgK5e0aegmuGL/M6wPaZNFQMzfMUCiFb5NODxW9lykq7ymOEog==}
+  /unlazy@0.8.9(fast-blurhash@1.1.2)(thumbhash@0.1.1):
+    resolution: {integrity: sha512-lRCuXN20N1esqSQqtSVBLAw9GJz0lcBuOBs3UGGw7cFWHQlWJVZZ3OviwOl42f1CnVHjAON1rs2hIdJWgMAUyg==}
     peerDependencies:
       fast-blurhash: ^1.1.2
       thumbhash: ^0.1.1
     dependencies:
-      '@unlazy/core': 0.8.8
+      '@unlazy/core': 0.8.9
       fast-blurhash: 1.1.2
       thumbhash: 0.1.1
     dev: true
@@ -14276,16 +14285,16 @@ packages:
     resolution: {integrity: sha512-bXE4cR/kVZhKZX/RjPEflHaKVhUVl85noU3v6b8apfQEc1x4A+zBxjZ4lN8LqGd6WZ3dl98pY4o717VFmoPp+A==}
     dev: true
 
-  github.com/tauri-apps/tauri-plugin-log/be811332676ff73e1e891f31ce3de8d447fdf07e:
-    resolution: {tarball: https://codeload.github.com/tauri-apps/tauri-plugin-log/tar.gz/be811332676ff73e1e891f31ce3de8d447fdf07e}
+  github.com/tauri-apps/tauri-plugin-log/76b5069f7b1e88de2c5f52706159fd9525a3ba50:
+    resolution: {tarball: https://codeload.github.com/tauri-apps/tauri-plugin-log/tar.gz/76b5069f7b1e88de2c5f52706159fd9525a3ba50}
     name: tauri-plugin-log-api
     version: 0.0.0
     dependencies:
       '@tauri-apps/api': 1.2.0
     dev: false
 
-  github.com/tauri-apps/tauri-plugin-store/f4ef29684e4a32eddf51befaae98a5e498df8574:
-    resolution: {tarball: https://codeload.github.com/tauri-apps/tauri-plugin-store/tar.gz/f4ef29684e4a32eddf51befaae98a5e498df8574}
+  github.com/tauri-apps/tauri-plugin-store/0558a1f6c869ae0afdb0181dfa1ea31be8cf4893:
+    resolution: {tarball: https://codeload.github.com/tauri-apps/tauri-plugin-store/tar.gz/0558a1f6c869ae0afdb0181dfa1ea31be8cf4893}
     name: tauri-plugin-store-api
     version: 0.0.0
     dependencies:
